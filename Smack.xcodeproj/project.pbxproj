@@ -13,6 +13,7 @@
 		D942AEAF207451CF001971B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D942AEAE207451CF001971B3 /* Assets.xcassets */; };
 		D942AEB2207451CF001971B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D942AEB0207451CF001971B3 /* LaunchScreen.storyboard */; };
 		D942AEBD20745EE6001971B3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D942AEBC20745EE6001971B3 /* SWRevealViewController.m */; };
+		D989D35E20EB058800D22B68 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989D35D20EB058800D22B68 /* GradientView.swift */; };
 		D9A70AC520A7DB53002DEF44 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A70AC420A7DB53002DEF44 /* ChatVC.swift */; };
 		D9A70AC720A7DB65002DEF44 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A70AC620A7DB65002DEF44 /* ChannelVC.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		D942AEBA20745EE5001971B3 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		D942AEBB20745EE6001971B3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		D942AEBC20745EE6001971B3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D989D35D20EB058800D22B68 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D9A70AC420A7DB53002DEF44 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D9A70AC620A7DB65002DEF44 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 		D9A70AC220A7DB31002DEF44 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D989D35D20EB058800D22B68 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Smack/Pods-Smack-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -234,6 +238,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -251,6 +256,7 @@
 			files = (
 				D9A70AC720A7DB65002DEF44 /* ChannelVC.swift in Sources */,
 				D9A70AC520A7DB53002DEF44 /* ChatVC.swift in Sources */,
+				D989D35E20EB058800D22B68 /* GradientView.swift in Sources */,
 				D942AEA8207451CE001971B3 /* AppDelegate.swift in Sources */,
 				D942AEBD20745EE6001971B3 /* SWRevealViewController.m in Sources */,
 			);

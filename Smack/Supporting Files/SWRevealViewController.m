@@ -1628,7 +1628,7 @@ const int FrontViewPositionNone = 0xff;
     
     if ( [controllerView isKindOfClass:[UIScrollView class]] )
     {
-        BOOL adjust = controller.automaticallyAdjustsScrollViewInsets;
+        BOOL adjust = ((UIScrollView *)controller).contentInsetAdjustmentBehavior;
         
         if ( adjust )
         {
